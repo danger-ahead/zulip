@@ -25,6 +25,9 @@ format used by the Zulip server that they are interacting with.
 * [`GET /messages`](/api/get-messages): The new `include_anchor`
   parameter controls whether a message with ID matching the specified
   `anchor` should be included.
+* [`POST /messages/flags/narrow`](/api/update-message-flags-for-narrow):
+  This new endpoint allows updating message flags on a range of
+  messages within a narrow.
 
 **Feature level 154**
 
